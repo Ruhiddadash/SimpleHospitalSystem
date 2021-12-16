@@ -1,0 +1,98 @@
+﻿.loginbody {
+    margin:0;
+    padding:0;
+    background-image:url('background.jpg');
+    background-size:auto;
+    font-family:'Tw Cen MT';
+}
+.registerbody {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg_reg.jpg');
+    background-size:cover;
+    font-family: 'Tw Cen MT';
+}
+
+
+.loginpanel{
+    position:absolute;
+    top:50%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:450px;
+    padding:80px 40px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.5);
+}
+
+
+.user{
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    top:calc(-100px/2);
+    left:calc(50% - 50px);
+    position:absolute;
+}
+
+h1{
+    padding:0;
+    margin:0;
+    text-align:center;
+    color:rgb(255, 255, 255);
+}
+
+.lbluser, .lblpass, .cb_doctor, .cb_show{
+    font-weight:bold;
+    color:#fff;
+}
+
+.tbuser, .tbpass, .tbemail, .tbconfirm , .btnlogin, .btnregister{
+    width:100%;
+    margin-bottom:20px;
+}
+
+.tbemail, .tbuser, .tbpass, .tbconfirm{
+    margin-top:5px;
+    border:none;
+    border-bottom:3px solid;
+    outline:none;
+    height:25px;
+    color:#fff;
+    font-size:14px;
+    background-color:transparent;
+}
+
+.btnlogin, .btnregister{
+    margin-top:10px;
+    border:none;
+    outline:none;
+    height:40px;
+    font-size:14px;
+    color:#fff;
+    background-color:rgb(255,9,9);
+    cursor:pointer;
+    border-radius:20px;
+    transition:.3s ease-in-out;
+}
+
+.btnlogin:hover, .btnregister:hover{
+    background-color:rgb(245, 112, 112);
+
+}
+
+.linkbtn_forget, .linkbtn_create, .linkbtn_have, .lblstatus {
+    font-size:14px;
+    font-weight:700;
+    text-decoration:none;
+    color:#fff;
+}
+
+.linkbtn_forget:hover, .linkbtn_create:hover, .linkbtn_have:hover{
+    text-decoration:underline;
+}
+.linkbtn_forget::after{
+    content: "\a";
+    white-space: pre;
+}
